@@ -1,0 +1,165 @@
+/***************HEADER***************/
+button
+{
+  background-color:transparent;
+}
+
+.menu 
+{
+  position:absolute;
+  top:6%;
+  left:50%;
+  transform:translate(-50%,-6%);
+  font-family: Arial;
+  z-index:1;
+}
+
+.menu a 
+{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+/*Home*/
+.Home
+{
+  display:inline;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image:url("images-menu/home.png");
+  width:90px;
+  height:90px;
+}
+
+/*Teorie*/
+.Book
+{
+  display:inline;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image:url("images-menu/book.png");
+  width:90px;
+  height:90px;
+}
+.Book1
+{
+  display:none;
+  position:absolute;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image:url("images-menu/book1.png");
+  width:90px;
+  height:90px;
+}
+
+/*Algoritmi*/
+.Laptop
+{
+  display:inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image:url("images-menu/laptop.png");
+  width:90px;
+  height:90px;
+}
+
+.Laptop1
+{
+  display:none;
+  position:absolute;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image:url("images-menu/laptop1.png");
+  width:90px;
+  height:90px;
+}
+
+/******** LEVEL 1 ********/
+.dropdown 
+{
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content 
+{
+  display:none;
+  position: relative;
+  bottom:25px;
+  padding-top:12px;
+  padding-bottom:12px;
+  background-color: rgba(34, 34, 34, 0.781);
+  width:160px;
+}
+
+.dropdown-content a 
+{
+  color: rgba(255, 255, 255, 0.61);
+  text-decoration: none;
+  display: inline;
+}
+
+
+/******** LEVEL 2 ********/
+.dropdown-lv2 
+{
+  position: relative;
+  display: inline;
+}
+.dropdown-content2 
+{
+  display:none;
+  position: absolute;
+  width:160px;
+  background-color: rgba(34, 34, 34, 0.781);
+}
+
+.dropdown-content2 a 
+{
+  color: rgba(255, 255, 255, 0.61);
+  text-decoration: none;
+  display: block;
+  padding-left:12px;
+  float:center;
+}
+.dropdown-content2 a:hover 
+{
+  background-color: rgba(50, 138, 252, 0.6);
+  color:black;
+  transition:0.8s;
+}
+.dropdown-lv2:hover .dropdown-content2 
+{
+  display: block;
+  position:absolute;
+  top:30px;
+}
+
+.menubtn
+{
+  text-decoration: none;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  width:120px;
+}
+
+.show 
+{
+  display: inline-block;
+  position:relative;
+  margin-right:-4.5px;
+}
+
+.remove
+{
+  display:none;
+}
+
+

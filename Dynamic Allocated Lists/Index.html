@@ -1,0 +1,112 @@
+﻿<html>
+<head>
+<link href="style-index.css" rel="stylesheet">
+<link href="style-menu.css" rel="stylesheet">
+<link href="style-body.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+
+<div id="gate1">
+        <h1>LISTE ALOCATE DINAMIC</h1>
+</div>
+    <div id="inner2">    
+        <div id="lock1">       
+                <div id="semicircle1"></div>         
+        </div> 
+        <div id="lock2">
+                <div id="semicircle2"><button id="gb" onclick="z()">INCEPE</button></div>
+        </div>   
+</div>
+<div id="inner"></div>
+<div id="gate2">
+        
+</div>
+
+    
+<div class="menu">
+        <button class="Home" style="position:relative; bottom:35px;"><a href="Index.html"></a></button> 
+        <div class="dropdown">
+            <button class="Book" id="B" onclick="d(),rs()"></button>
+            <button class="Book1" id="B1" onclick="d(),rs()"></button>
+            
+            <div class="dropdown-content" id="Dropdown" >
+                <button class="menubtn" id="MB" ><a href="Teorie.html" style="padding-left:25px;">Teorie</a></button>
+            </div>
+        </div> 
+        
+        <div class="dropdown">
+            <button class="Laptop" id="L" onclick="d2(),rs2()"></button>
+            <button class="Laptop1" id="L1" onclick="d2(),rs2()"></button>
+        
+            <div class="dropdown-content" id="Dropdown2">
+                <div class="dropdown-lv2">
+                <button class="menubtn"><a>Algoritmi</a></button>
+                <div class="dropdown-content2">
+                    <a href="Operatii.html">Operatii</a>
+                    <a href="Probleme.html">Probleme</a>
+                </div>
+                </div>
+            </div>
+        </div> 
+        
+        
+    </div>
+
+<div id="content1">
+<div class="text-bar">DEFINITIE</div>
+<p>O listă este o colecție de noduri organizată conform unui criteriu în care există memorat o parte de informație și o parte de legătură pentru următorul nod conform criteriului :</p>
+<img src="images/liste1.png">
+<p>
+Structurile dinamice de date sunt date structurate ale caror componente se aloca in mod dinamic.
+<br>Avantajele alocarii dinamice fata de alocarea acelorasi structuri de date in mod static (in segmentul de date) sau volatil (in segmentul de stiva) sunt:
+
+
+<br>-memorie suplimentara pentru programe
+
+<br>-posibilitatea de a utiliza aceasta memorie
+</p>
+<p>
+    Alocarea dinamica a componentelor structurii impune un mecanism prin care o noua componenta aparuta este legata in succesiune logica de corpul structurii deja format pana atunci. Rezulta ca fiecare componenta, pe langa informatia propriu-zisa pe care o detine, trebuie sa contina si o informatie de legatura cu componenta cu care se leaga logic in succesiune. Aceasta informatie de legatura va fi adresa componentei spre care se realizeaza succesiunea logica, iar mecanismul se mai numeste si alocare inlantuita dupa adrese.
+</p>
+<p>
+    In HEAP, structura respectiva va avea zone alocate componentelor sale in locurile gasite disponibile, care nu se succed intotdeauna in ordinea in care este realizata inlantuirea logica.
+
+In functie de tipul inlantuirii realizate intre componente, exista urmatoarele tipuri de organizari:
+<br>
+<br>-structuri liniare (de exeplu o lista care prelucreaza elevii care se inscriu la un examen)
+
+<br>->liste simplu inlantuite (liniare si circulare)
+
+<br>->liste dublu inlantuite (liniare si circulare)
+
+<br>-structuri arborescente (de exemplu reteaua ierarhica a angajatilor dintr-o firma)  
+
+<br>-structuri retea (de exemplu o retea de orase care schimba materiale, combustibili etc)
+</p>
+
+    <div class="text-bar">UTILITATE LSI</div>
+    <p>Listele simplu înlănţuite reprezintă o utilizare foarte importantă a alocării dinamice a memoriei deoarece:</p>
+    <p>1.Sunt mai flexibile decat stiva si coada(care restrictioneaza operatiile de adaugare,acces si stergere a elementelor conform definitiilor lor.</p>
+    <p>2.Se recomanda folosirea listelor simplu inlantuite in rezolvarea problemelor specifice vectorilor,deoarece se utilizeaza eficient memoria care poate fi alocata sau eliberata in functie de cerintele programatorului.</p>
+    <p>3.Anumite genuri de probleme(cum ar fi operatiile cu matrici rare,respectiv polinoame rare) isi gasesc o rezolvare mai rapida,eficienta si utila folosind listele. </p>
+    
+    <div class="text-bar">UTILITATE LDI</div>
+<p>Avantajul utilizării listelor dublu înlănţuite rezultă din posibilitatea parcurgerii (traversării) listei în ambele
+    sensuri: de la primul la ultimul, respectiv, de la ultimul la primul nod. Acest lucru permite o manipulare mai
+    flexibilă a nodurilor listei.
+</p>
+    <p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+    </p>
+
+</div>
+</div>
+
+</body>

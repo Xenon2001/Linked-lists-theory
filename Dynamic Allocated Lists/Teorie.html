@@ -1,0 +1,103 @@
+<html>
+<head>
+<link href="style-menu.css" rel="stylesheet">
+<link href="style-body.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="menu">
+        <button class="Home" style="position:relative; bottom:35px;"><a href="index.html"></a></button> 
+        <div class="dropdown">
+            <button class="Book" id="B" onclick="d(),rs()"></button>
+            <button class="Book1" id="B1" onclick="d(),rs()"></button>
+            
+            <div class="dropdown-content" id="Dropdown" >
+                <button class="menubtn" id="MB" ><a href="Teorie.html" padding-left:25px;">Teorie</a></button>
+            </div>
+        </div> 
+        
+        <div class="dropdown">
+            <button class="Laptop" id="L" onclick="d2(),rs2()"></button>
+            <button class="Laptop1" id="L1" onclick="d2(),rs2()"></button>
+        
+            <div class="dropdown-content" id="Dropdown2">
+                <div class="dropdown-lv2">
+                <button class="menubtn"><a>Algoritmi</a></button>
+                <div class="dropdown-content2">
+                    <a href="Operatii.html">Operatii</a>
+                    <a href="Probleme.html">Probleme</a>
+                </div>
+                </div>
+            </div>
+        </div> 
+        
+        
+    </div>
+
+<div id="content1">
+<button class="next" id="N" style="position:sticky; margin-left:95%;"  onclick="s1()"></button>
+<div class="title">LISTE SIMPLU INLANTUITE</div>
+<div class="text-bar">DEFINITIE</div>
+<p>O listă simplu înlănţuită este o structură de date ce utilizează alocarea dinamică a
+    memoriei. Un element al listei se numeşte nod. Fiecare nod al unei liste conţine un câmp care
+    are rolul de a indica adresa următorului element din listă. 
+    </p>
+<p>Memoria dinamică (heap) este o zonă a memoriei interne alocate programului în care adresele solicitate în program sunt folosite temporar și apoi dealocate .</p>
+
+<div class="text-bar">OPERATII LSI</div>
+
+<p><br>1.Declararea;</br>
+<br>2.Inițializarea ;</br>
+<br>3.Adăugarea unu nod;</br>
+<br>4.Ștergerea unui nod ;</br>
+<br>5.Inserarea unui nod;</br>
+<br>6.Parcurgerea pentru prelucrare.</br>
+</p>
+<p>Observație:  Este suficient să cunoaștem adresa primului nod din listă.
+    Uneori  este util să păstrăm și adresa ultimului nod. 
+    <img src="images/liste2.png" style="position:flex; left:50%;">
+</p>
+    
+<p>Orice listă liniară poate fi accesată ca:
+    <br>a)O stivă de date (liste LIFO)
+    <br>b)O coadă de date (liste FIFO)
+    </p>
+<p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+</p>
+</div>
+<div id="content2">
+<button class="back" id="B" style="position:sticky; margin-right:95%;"  onclick="s2()"></button>
+<div class="title">LISTE DUBLU INLANTUITE</div>
+<div class="text-bar">DEFINITIE</div>
+    <p>Listele dublu inlantuite sunt structuri de date dinamice. Ele au aceleasi caracteristici de baza ca si listele simplu inlantuite. Diferenta fata de acestea consta in faptul ca, pentru fiecare nod, se retine si adresa elementului anterior, ceea ce permite traversarea listei in ambele directii.</p>
+<img src="images/liste11.png">
+<br></br>
+<br></br>
+<div class="text-bar">OPERATII LDI</div>
+
+<p><br>1.Declararea;</br>
+<br>2.Inițializarea ;</br>
+<br>3.Adăugarea unu nod;</br>
+<br>4.Ștergerea unui nod ;</br>
+<br>5.Inserarea unui nod;</br>
+<br>6.Parcurgerea pentru prelucrare.</br>
+</p>
+<p>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+</p>
+</div>
+</body>
+</html>
